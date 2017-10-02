@@ -1,0 +1,20 @@
+/*---------------------------------------------------------------------
+position
+---------------------------------------------------------------------*/
+.idr-list-module> li,
+.idr-list-colorcode li,
+.idr-list-colorcode> li > ul >li
+{position: relative;}
+.idr-list-module > li:after,
+.idr-list-module var,
+.idr-list-colorcode var,
+.idr-list-colorcode> li > ul >li:after
+{position: absolute;}
+/*---------------------------------------------------------------------
+content
+---------------------------------------------------------------------*/
+.idr-list-module > li:after,
+.idr-list-colorcode>li:nth-child(2)>ul::after,
+.idr-list-colorcode>li:nth-child(3)>ul::after,
+.idr-list-colorcode> li > ul >li:after
+{content:"";}

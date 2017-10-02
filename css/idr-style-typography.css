@@ -1,0 +1,61 @@
+/*---------------------------------------------------------------------
+font-family
+---------------------------------------------------------------------*/
+body
+{ font-family: 'Overpass','ヒラギノ角ゴ Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', sans-serif; }
+.idr-font-overpass
+{font-family: 'Overpass';}
+.idr-font-kakugo
+{font-family: 'Heisei Kaku Gothic Std';}
+
+/*---------------------------------------------------------------------
+font-size
+---------------------------------------------------------------------*/
+body
+{font-size: 18px;}
+.idr-hed-block,
+.idr-hed-block:first-child
+{font-size: 72px;}
+.idr-hed-block
+{font-size: 36px;}
+.idr-list-colorcode
+{font-size: 12px;}
+
+/*---------------------------------------------------------------------
+font-weight
+---------------------------------------------------------------------*/
+.idr-font-w3
+{font-weight: 300;}
+.idr-font-w5
+{font-weight: 500;}
+.idr-font-w7
+{font-weight: 700;}
+.idr-font-w9
+{font-weight: 900;}
+.idr-hed-block
+{font-weight: Black;}
+h3.idr-hed-block
+{font-weight: bold;}
+/*---------------------------------------------------------------------
+line-height
+---------------------------------------------------------------------*/
+body,
+.idr-list-module span,
+.idr-list-colorcode span
+{line-height: 2;}
+.idr-hed-block,
+.idr-hed-block
+{line-height: 1;}
+
+/*---------------------------------------------------------------------
+letter-spacing
+---------------------------------------------------------------------*/
+.idr-list-block > dd:nth-child(8)
+{letter-spacing:-10px;}
+.idr-list-colorcode
+{letter-spacing:0;}
+/*---------------------------------------------------------------------
+text-align
+---------------------------------------------------------------------*/
+.idr-grid-cut:last-child
+{text-align: center;}

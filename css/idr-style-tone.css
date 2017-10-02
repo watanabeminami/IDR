@@ -1,0 +1,65 @@
+/*---------------------------------------------------------------------
+background-color
+---------------------------------------------------------------------*/
+.idr-list-colorcode> li > ul >li:after,
+.idr-list-module > li:after
+{ background-color: #000000;}
+#jsi-onetone-black
+{ background-color: #4D4845;}
+#jsi-gradation-black
+{background-image:linear-gradient(90deg,  #4D4845, #FFFFFF);  }
+#jsi-divided-black > div:nth-child(1)
+{background-color: #4D4845; }
+#jsi-divided-black > div:nth-child(2)
+{background-color: #5D5956; }
+#jsi-divided-black > div:nth-child(3)
+{background-color: #6D6966; }
+#jsi-divided-black > div:nth-child(4)
+{background-color: #7F7B78; }
+#jsi-divided-black > div:nth-child(5)
+{background-color: #908C8A; }
+#jsi-divided-black > div:nth-child(6)
+{background-color: #A19E9C; }
+#jsi-divided-black > div:nth-child(7)
+{background-color: #B4B1AF; }
+#jsi-divided-black > div:nth-child(8)
+{background-color: #C6C3C2; }
+#jsi-divided-black > div:nth-child(9)
+{background-color: #DAD7D6; }
+#jsi-divided-black > div:nth-child(10)
+{background-color: #ECEAE9; }
+
+#jsi-onetone-gray
+{ background-color: #B9B8B9;}
+#jsi-gradation-gray
+{background-image:linear-gradient(90deg,  #B9B8B9, #FFFFFF);  }
+#jsi-divided-gray > div:nth-child(1)
+{background-color: #B9B8B9; }
+#jsi-divided-gray > div:nth-child(2)
+{background-color: #C0BFC0; }
+#jsi-divided-gray > div:nth-child(3)
+{background-color: #C7C6C7; }
+#jsi-divided-gray > div:nth-child(4)
+{background-color: #CECDCE; }
+#jsi-divided-gray > div:nth-child(5)
+{background-color: #D5D4D4; }
+#jsi-divided-gray > div:nth-child(6)
+{background-color: #DCDBDB; }
+#jsi-divided-gray > div:nth-child(7)
+{background-color: #E3E2E2; }
+#jsi-divided-gray > div:nth-child(8)
+{background-color: #EAE9E9; }
+#jsi-divided-gray > div:nth-child(9)
+{background-color: #F2F0F0; }
+#jsi-divided-gray > div:nth-child(10)
+{background-color: #F9F7F7; }
+.idr-list-colorcode var,
+.idr-list-colorcode span,
+.idr-list-module span,
+.idr-list-module var,
+.idr-list-noline
+{background-color: #FFFFFF;}
+
+/*---------------------------------------------------------------------
+color
+---------------------------------------------------------------------*/
